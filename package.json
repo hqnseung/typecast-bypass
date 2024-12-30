@@ -9,6 +9,7 @@
   "description": "타입캐스트 TTS 워터마크 우회 다운로더 (교육용)",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
