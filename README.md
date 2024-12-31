@@ -28,13 +28,24 @@
     ```
 
 ## 사용 방법
-1. 코드를 실행합니다. 자동으로 크롬 새로운 창이 타입캐스트 대시보드 웹페이지로 열립니다.
+1. 작업관리자를 켜 작동중인 모든 `Google Chrome`을 `작업 끝내기`합니다.
+2. cmd에 아래 명령어를 입력해 크롬을 디버그 모드로 실행합니다. (윈도우)
+   ```bash
+    "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
+   ```
+3. 프로젝트 디렉토리로 이동합니다:
+    ```bash
+    cd typecast-bypass
+    ```
+4. 프로젝트를 실행합니다. 자동으로 크롬에 타입캐스트 대시보드 웹페이지가 열립니다.
     ```bash
     npm start
     ```
-2. 열린 타입캐스트 대시보드 웹페이지에서 다운로드 하고자 하는 프로젝트에 들어갑니다.
-3. 음성 미리듣기를 처음부터 재생합니다.
-4. 폴더의 /download 폴더에 워터마크 음악이 제거된 음성파일이 재생된 순서대로 저장됩니다.
+5. 열린 타입캐스트 대시보드 웹페이지에서 다운로드 하고자 하는 프로젝트에 들어갑니다.
+   - 로그인이 필요할 수도 있음
+7. 음성 미리듣기를 처음부터 재생합니다.
+   - 재생되는 순서대로 파일이 저장됩니다.
+8. 프로젝트 폴더의 /download 폴더에 워터마크 음악이 없는 음성파일들이 저장되어 있습니다.
 
 
 ## 주의사항
@@ -42,7 +53,7 @@
 - 이 프로젝트를 통해 보안 교육, 저작권 침해의 위험성을 이해하고 방지 방법을 배우는 데 중점을 두어야 합니다.
 - 본 스크립트는 연구, 교육적인 용도로만 제공되며, 상업적 목적이나 불법적인 용도로 사용해서는 안 됩니다.
 - 타입캐스트의 [이용약관](https://help.typecast.ai/ko/articles/5361255-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80?_gl=1*vqq3v6*_gcl_aw*R0NMLjE3MzU2MTkwNjAuQ2p3S0NBaUFwc203QmhCWkVpd0F2SXUyWDhmb1duVkdCREVxcTV4OURpS0ZiYnRLN3hhdjExbnpEeVE4WHpUMHhkMV82VFhCZXB4Qi14b0NPU29RQXZEX0J3RQ..*_gcl_au*MzAyMTU4NjQuMTczNDYwODY1Ni4xMTY2Nzg4NjIyLjE3MzU1NzM3NjAuMTczNTU3Mzc1OQ..*_ga*MTg5NTQ3MzczNy4xNzM0NTQyOTA4*_ga_5VCDJ4W4LQ*MTczNTYxOTA0Ny4xMy4xLjE3MzU2MTk0MDcuNTkuMC4w)을 준수해야 합니다.
-- 워터마크 음악 무단삭제는 타입캐스트 이용약관에 위배되며, 이를 실제로 시행할 경우 법적 책임이 따를 수 있습니다.
+- 워터마크 음악 무단삭제를 통해 타입캐스트의 권익울 침해 하는 행위는 타입캐스트 이용약관에 위배되며, 이를 실제로 시행할 경우 법적 책임이 따를 수 있습니다.
 
 ## 라이센스
 
